@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "edge_conn")(type "KiCad")(uri "${KIPRJMOD}/edge_conn.kicad_sym")(options "")(descr ""))
+)

@@ -3010,6 +3010,10 @@
 		(uuid "d43acaa5-0f87-4f29-b7fa-e09cba3f3319")
 	)
 	(no_connect
+		(at 180.34 85.09)
+		(uuid "dc5bc14f-39b6-4f44-a07e-e6476ea5e710")
+	)
+	(no_connect
 		(at 180.34 102.87)
 		(uuid "e0cbec0d-4638-4627-b5ae-fa8d7c041fe2")
 	)
@@ -3032,10 +3036,6 @@
 	(no_connect
 		(at 180.34 118.11)
 		(uuid "f9948296-470e-4eb1-8828-639946649a00")
-	)
-	(no_connect
-		(at 180.34 90.17)
-		(uuid "fe1fcbe5-0098-4f41-bb04-867294024f49")
 	)
 	(wire
 		(pts
@@ -3226,16 +3226,6 @@
 			(type default)
 		)
 		(uuid "267fd5ae-9190-4c7d-a653-c409827ed241")
-	)
-	(wire
-		(pts
-			(xy 180.34 85.09) (xy 182.88 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e71dc2-b461-4b8d-8cc6-4c957ea72f65")
 	)
 	(wire
 		(pts
@@ -3656,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "ac77ea17-6df7-4bfc-9e63-a600f93e9eba")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 182.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbcf7b3-4127-4796-81f8-a831094965b9")
 	)
 	(wire
 		(pts
@@ -4269,6 +4269,17 @@
 		)
 		(uuid "20e02339-061c-4a64-a07d-df98379651fe")
 	)
+	(hierarchical_label "PWR_LATCH"
+		(shape output)
+		(at 182.88 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "402f052b-ea2f-4d61-bbb0-3b087d90bd40")
+	)
 	(hierarchical_label "ACCEL_INT2"
 		(shape bidirectional)
 		(at 182.88 80.01 0)
@@ -4290,17 +4301,6 @@
 			(justify right)
 		)
 		(uuid "5d9ff894-b1a3-4ec8-a5de-103b8d166bcc")
-	)
-	(hierarchical_label "TOUCH_SYNC"
-		(shape input)
-		(at 182.88 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8bdb018b-d8f3-42a1-8146-8c02676e403a")
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape output)

@@ -837,131 +837,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -1088,17 +963,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "During boot microcontroller \nshould pull PWR_LATCH \npin up to stay power up"
+		(exclude_from_sim no)
+		(at 104.14 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce549990-7dbb-45ee-b112-95db9df1e1fb")
+	)
 	(no_connect
 		(at 248.92 44.45)
 		(uuid "07aea194-499d-48b0-9afd-155f0400f004")
-	)
-	(no_connect
-		(at 64.77 58.42)
-		(uuid "16ef9214-cbb8-4b0f-8a14-6b6a5c6c36eb")
-	)
-	(no_connect
-		(at 64.77 55.88)
-		(uuid "5b1c089b-6ed9-4a10-af48-062b946567d1")
 	)
 	(no_connect
 		(at 248.92 46.99)
@@ -1178,13 +1055,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 135.89) (xy 198.12 135.89)
+			(xy 64.77 58.42) (xy 123.19 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e8ff360-f232-4849-b63a-3e3538e1deb8")
+		(uuid "4c9eae72-fdc6-4f65-99a3-ab1663e22628")
 	)
 	(wire
 		(pts
@@ -1208,16 +1085,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 101.6) (xy 196.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e40d344-6145-4b39-a17e-1cb8b04be266")
-	)
-	(wire
-		(pts
 			(xy 209.55 38.1) (xy 209.55 39.37)
 		)
 		(stroke
@@ -1238,6 +1105,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eff4605-4ba3-443b-97cf-fa20550dcabd")
+	)
+	(wire
+		(pts
 			(xy 158.75 40.64) (xy 161.29 40.64)
 		)
 		(stroke
@@ -1245,16 +1122,6 @@
 			(type default)
 		)
 		(uuid "9f5898ec-3e35-447c-90b6-ab39a7f14123")
-	)
-	(wire
-		(pts
-			(xy 158.75 99.06) (xy 196.85 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83c8431-399e-410f-92db-7b39dd516781")
 	)
 	(wire
 		(pts
@@ -1474,7 +1341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "power:VCC")
 		(at 209.55 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1482,7 +1349,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "20384ac6-db5f-4db1-937b-c4ce1a2cbb99")
+		(uuid "348fc5ea-5432-4a83-9652-f622d3992283")
 		(property "Reference" "#PWR01"
 			(at 209.55 41.91 0)
 			(effects
@@ -1492,7 +1359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VCC"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -1518,7 +1385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 209.55 38.1 0)
 			(effects
 				(font
@@ -1528,79 +1395,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "964552da-36d8-45e3-bfb0-6ea8255d6ea2")
+			(uuid "f0799fea-d156-47f6-a425-7c980fc5e8d7")
 		)
 		(instances
 			(project "mainboard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 142.24 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2214c4a0-d06e-469e-8cc6-35b7233f7b0b")
-		(property "Reference" "#FLG01"
-			(at 142.24 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 142.24 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "460bd759-4826-4fa5-9e3c-1b7f9bba3062")
-		)
-		(instances
-			(project "mainboard"
-				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1668,72 +1468,6 @@
 			(project "mainboard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 142.24 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86cc38de-c8ef-4cf0-b90e-038ba1566927")
-		(property "Reference" "#PWR05"
-			(at 142.24 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 142.24 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41208ece-b638-410f-9a27-7a09713fa841")
-		)
-		(instances
-			(project ""
-				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2303,60 +2037,8 @@
 		)
 	)
 	(sheet
-		(at 198.12 130.81)
-		(size 16.51 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "32b30c51-3bab-4a7d-8f19-a767589b41e0")
-		(property "Sheetname" "pwr_ctr"
-			(at 198.12 130.0984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pwr_ctr.kicad_sch"
-			(at 198.12 142.8246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PWR_CTR" input
-			(at 198.12 135.89 180)
-			(uuid "4bb2a031-6d2e-4fde-8b84-dc6ca102a7f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "mainboard"
-				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 196.85 81.28)
-		(size 21.59 24.13)
+		(size 21.59 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2380,7 +2062,7 @@
 			)
 		)
 		(property "Sheetfile" "utils.kicad_sch"
-			(at 196.85 105.9946 0)
+			(at 196.85 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,26 +2083,6 @@
 		(pin "I2C_SDA" bidirectional
 			(at 196.85 91.44 180)
 			(uuid "f812c1d5-8e2e-442d-b5c6-fc47d91257d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TOUCH_SYNC" input
-			(at 196.85 99.06 180)
-			(uuid "4c86e03f-bd5c-446c-9216-49dc2853243e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TOUCH" output
-			(at 196.85 101.6 180)
-			(uuid "194dfec2-68c7-494e-8d3c-a7d0538a98ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,33 +2223,13 @@
 			)
 		)
 		(pin "TOUCH" input
-			(at 158.75 101.6 0)
+			(at 123.19 55.88 180)
 			(uuid "62601695-27dc-45f1-b3b2-e0b15691c2d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "SENS_PWR" input
-			(at 158.75 135.89 0)
-			(uuid "936387c2-5ed8-4cad-97ed-143573d73877")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TOUCH_SYNC" input
-			(at 158.75 99.06 0)
-			(uuid "e7471332-3397-4103-8d7e-1077870e7d10")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "ACCEL_INT1" bidirectional
@@ -2608,6 +2250,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PWR_LATCH" output
+			(at 123.19 58.42 180)
+			(uuid "fbd265de-1893-4291-842a-d6d2a1d5c007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

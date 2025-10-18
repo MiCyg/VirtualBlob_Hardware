@@ -658,10 +658,6 @@
     [
       "49bfffe8-8446-437a-9339-1d6b2ed362e6",
       "utils"
-    ],
-    [
-      "32b30c51-3bab-4a7d-8f19-a767589b41e0",
-      "pwr_ctr"
     ]
   ],
   "text_variables": {}

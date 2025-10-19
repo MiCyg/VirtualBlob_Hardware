@@ -2617,7 +2617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E"
+		(property "Footprint" "buzzer:Buzzer_SMD_5020"
 			(at 160.655 111.76 90)
 			(effects
 				(font

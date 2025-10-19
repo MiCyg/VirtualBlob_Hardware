@@ -1,0 +1,198 @@
+(footprint "Buzzer_SMD_5020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1")
+	(tags "Murata Buzzer Beeper")
+	(property "Reference" "BZ1"
+		(at -0.127 3.81 180)
+		(layer "F.SilkS")
+		(uuid "b006ff85-1e20-4bd5-8286-17a7c736b3ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buzzer"
+		(at 0.25 4 180)
+		(layer "F.Fab")
+		(uuid "0bde2764-0cd8-4c4c-98e3-b7092edb3667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "267bcca6-9441-40bb-a824-643a6e6818f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzer, polarized"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "243a356f-147e-4a55-bdd3-4d705e6cc61a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.75 -0.75)
+		(end -2.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91325f14-722f-40c7-8622-e0b34ecd94f9")
+	)
+	(fp_line
+		(start -1 2.5)
+		(end 0.75 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c65249c4-0808-48fc-a3e6-892481941952")
+	)
+	(fp_line
+		(start 1.75 -2.5)
+		(end -1 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "031a1b3d-6f36-413e-b545-d867a7476f9e")
+	)
+	(fp_line
+		(start 2.75 -1.5)
+		(end 1.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94b16360-d27c-4d9c-aa30-56a9609ab58d")
+	)
+	(fp_line
+		(start 2.75 0.75)
+		(end 2.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c54bb4c-3627-405e-ab80-8e1aada0b484")
+	)
+	(fp_line
+		(start -3.5 -2.75)
+		(end 3.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b485fe0-7701-454e-bcbb-86aa34e62c20")
+	)
+	(fp_line
+		(start -3.5 2.75)
+		(end -3.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21263e06-9413-4b75-9c33-bd831169ea5b")
+	)
+	(fp_line
+		(start 3.25 2.75)
+		(end -3.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c72ae2c-2419-48f2-8aa1-db4d7035af76")
+	)
+	(fp_line
+		(start 3.25 2.75)
+		(end 3.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4e16ff0-4aef-404d-b8ec-14987071ae61")
+	)
+	(fp_line
+		(start 2.75 -1.5)
+		(end 1.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a9aa89fa-d0f4-4950-b7c7-7850299c0760")
+	)
+	(fp_rect
+		(start -2.75 -2.5)
+		(end 2.75 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "862eef72-e02b-4d0f-8817-12f6ee9583b5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "51aaf14d-e50a-4f66-aaf4-2e4dbea0a59a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -2.25 -1.75)
+		(size 2.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f3530bc-4bec-4884-bda2-2b464aa41a58")
+	)
+	(pad "1" smd rect
+		(at -2.25 1.75)
+		(size 2.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3dc9a1c-347b-410f-b9c2-0d8339d84979")
+	)
+	(pad "2" smd rect
+		(at 2 1.75)
+		(size 2.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4402d83b-49a0-4d9a-abbc-79b175b5fe88")
+	)
+	(embedded_fonts no)
+)

@@ -32,6 +32,6 @@ The device is designed to operate continuously from a Li-Po battery. Therefore, 
 ## Assembled Boards
 
 <p align="center">
-	<img src="images/VBH1.jpg" width="320"/>
-	<img src="images/VBH2.jpg" width="320"/>
+	<img src="images/VBH1.jpg" width="45%"/>
+	<img src="images/VBH2.jpg" width="45%"/>
 </p>

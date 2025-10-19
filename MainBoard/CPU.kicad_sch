@@ -2970,10 +2970,6 @@
 		(uuid "0548baac-6f9d-4fbb-904f-520d7034f25b")
 	)
 	(no_connect
-		(at 180.34 92.71)
-		(uuid "1ad330fc-5893-474d-978c-af3c0454fc1a")
-	)
-	(no_connect
 		(at 180.34 128.27)
 		(uuid "2b65f1f5-bbc7-4b00-984f-e32a2c0efba5")
 	)
@@ -2992,6 +2988,10 @@
 	(no_connect
 		(at 180.34 135.89)
 		(uuid "7d23105f-7e72-40c2-8da3-19c4e0b1635b")
+	)
+	(no_connect
+		(at 180.34 82.55)
+		(uuid "aa08cfaf-a28c-4559-9be5-30261ed37c50")
 	)
 	(no_connect
 		(at 180.34 123.19)
@@ -3336,16 +3336,6 @@
 			(type default)
 		)
 		(uuid "43569ac4-cfd0-4926-b450-81c84bcb3962")
-	)
-	(wire
-		(pts
-			(xy 180.34 82.55) (xy 182.88 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "444b602a-9cf7-4d7a-9069-dcdf2d9a95be")
 	)
 	(wire
 		(pts
@@ -3869,6 +3859,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 92.71) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9792337-2c01-4e4b-a5d5-7745cbfddd2c")
+	)
+	(wire
+		(pts
 			(xy 180.34 72.39) (xy 182.88 72.39)
 		)
 		(stroke
@@ -4324,6 +4324,17 @@
 		)
 		(uuid "9b79a18e-ae8d-4401-89ef-128212d8bbd5")
 	)
+	(hierarchical_label "BUZZ"
+		(shape output)
+		(at 182.88 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9abc7ee-2ae6-4dbb-9496-a62051ea3ad9")
+	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
 		(at 182.88 67.31 0)
@@ -4367,17 +4378,6 @@
 			(justify left)
 		)
 		(uuid "f85668d5-0f07-4e97-86f3-dac778bd54ed")
-	)
-	(hierarchical_label "SENS_PWR"
-		(shape input)
-		(at 182.88 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd585dc4-5fe6-441f-a3ba-1fed70f52f21")
 	)
 	(symbol
 		(lib_id "Device:C_Small")

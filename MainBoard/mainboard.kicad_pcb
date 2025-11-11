@@ -3121,7 +3121,7 @@
 	(footprint "buzzer:Buzzer_SMD_5020"
 		(layer "F.Cu")
 		(uuid "6ade8b68-b7b2-4ecd-9d1f-f6cf7a806815")
-		(at 174.24 65.245)
+		(at 182.5 59)
 		(descr "Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1")
 		(tags "Murata Buzzer Beeper")
 		(property "Reference" "BZ1"
@@ -7413,8 +7413,8 @@
 		)
 	)
 	(gr_rect
-		(start 210 50)
-		(end 250 90)
+		(start 214 50)
+		(end 246 90)
 		(stroke
 			(width 0.05)
 			(type default)

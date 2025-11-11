@@ -48,10 +48,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -119,7 +125,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -468,7 +481,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.6,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -612,7 +625,41 @@
     [
       "703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e",
       "Root"
+    ],
+    [
+      "bab3fe77-9dba-4e51-a0ff-64623aaffc33",
+      "Row0"
+    ],
+    [
+      "3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca",
+      "Row1"
+    ],
+    [
+      "61adf4b0-2518-426c-b309-3bdcf197ce89",
+      "Row2"
+    ],
+    [
+      "53030be6-7751-4235-9076-a3f86776593a",
+      "Row3"
+    ],
+    [
+      "162a7c42-e5dc-40cb-a278-34f0a3e237df",
+      "Row4"
+    ],
+    [
+      "49aafbbd-c599-4afa-a9c6-64c52b456641",
+      "Row5"
+    ],
+    [
+      "45893297-817c-4322-b967-7e93ac2e262d",
+      "Row6"
+    ],
+    [
+      "32bc70e3-e934-41dd-bb9b-c52d42f12853",
+      "Row7"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "revision": "0.0.0"
+  }
 }

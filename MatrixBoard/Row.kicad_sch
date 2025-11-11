@@ -1,0 +1,4890 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "495a6fc0-330f-4d00-aa07-9d8f167d9d74")
+	(paper "A4")
+	(title_block
+		(title "VirtualBlob")
+		(date "2025-11-10")
+		(rev "${revision}")
+		(company "Miłosz Derżko")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 52.07 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b44d090-1894-4368-b26b-647af1cb22ac")
+	)
+	(junction
+		(at 124.46 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0dfc61-760b-4f44-9f1f-f30d3b5d5c51")
+	)
+	(junction
+		(at 220.98 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc56911-3c76-4c38-8dc4-6dd386c90eda")
+	)
+	(junction
+		(at 148.59 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a96fca2f-2c7b-450a-a705-cf4ae7d1f995")
+	)
+	(junction
+		(at 100.33 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbe22fd0-8885-459d-adc1-c3aaaa44cdf6")
+	)
+	(junction
+		(at 196.85 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da6a898d-beec-47d2-9862-e03fca18b5ab")
+	)
+	(junction
+		(at 172.72 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd204c53-53ae-4f5f-a0e1-5c9c38111fd2")
+	)
+	(junction
+		(at 76.2 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8f7e30c-4d50-495c-a14f-9503d91dddcf")
+	)
+	(wire
+		(pts
+			(xy 124.46 92.71) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d617740-0ae3-4be7-ba77-844ce2ae1022")
+	)
+	(wire
+		(pts
+			(xy 148.59 92.71) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f2ea2b-2f58-4fab-81f9-c6505d802c7a")
+	)
+	(wire
+		(pts
+			(xy 196.85 90.17) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1c6981-d537-4187-b1be-fe0d36ad7d23")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 76.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3c1e7f-ce0f-4ee1-a75a-aecf2e0b2212")
+	)
+	(wire
+		(pts
+			(xy 172.72 90.17) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35102404-d96e-4cf7-88b8-bd98a9b4b6e6")
+	)
+	(wire
+		(pts
+			(xy 59.69 102.87) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc81aa2-80d9-422d-8e06-9e6eed061159")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 220.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434ba9ce-7d02-45f0-8721-b70c1720e4ac")
+	)
+	(wire
+		(pts
+			(xy 52.07 92.71) (xy 52.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cfe1c3-8c66-4620-845e-7e0a3898d3e2")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5b6fba-6370-4a31-b0c0-868ed42514cf")
+	)
+	(wire
+		(pts
+			(xy 83.82 102.87) (xy 92.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0eecf3-b5f8-4bbb-ba56-86a74ffa712c")
+	)
+	(wire
+		(pts
+			(xy 204.47 102.87) (xy 213.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c62c7a-af97-4e46-8a75-4d633cc49f2b")
+	)
+	(wire
+		(pts
+			(xy 228.6 102.87) (xy 232.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627ccdd6-df48-450c-8028-4ff6e55a4f59")
+	)
+	(wire
+		(pts
+			(xy 180.34 102.87) (xy 189.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4da56c-6cf8-482a-967f-50882a3bec77")
+	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d7e561-061a-4143-9fef-6b5a2ce339b9")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762573ad-ed5e-4496-9f5b-80dda6297881")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763fe407-564b-491d-98fc-1d81d73f175e")
+	)
+	(wire
+		(pts
+			(xy 220.98 90.17) (xy 220.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acb8b0b-b3a9-4471-b162-a00f98e3da31")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc38038-08b3-4f65-be2f-718dab65e0ce")
+	)
+	(wire
+		(pts
+			(xy 76.2 90.17) (xy 76.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986e5db8-f98c-4d9b-86e9-a32d818c5014")
+	)
+	(wire
+		(pts
+			(xy 220.98 92.71) (xy 220.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e715029-a9bc-4b7b-b92f-92de96f126fc")
+	)
+	(wire
+		(pts
+			(xy 54.61 92.71) (xy 52.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4cb895-7e98-4773-b2f4-fc597d1bb225")
+	)
+	(wire
+		(pts
+			(xy 199.39 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ec458b-ad9b-474a-9c57-c218c250b8fe")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e08228-880f-4c6a-8497-ec4bf9e5e49d")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22dfdbf-5798-47f4-a48b-05d444626fdf")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc94ed7c-9499-4f29-9d13-d6ec72ba41e8")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1af5290-0005-4b2f-92ec-dafc20057a6c")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b1b558-dfae-43aa-8df8-7710a58b0338")
+	)
+	(wire
+		(pts
+			(xy 196.85 92.71) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbae48d9-a64d-4569-8eab-2ef108c1b806")
+	)
+	(wire
+		(pts
+			(xy 148.59 90.17) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b022f9-24ac-4e11-8d61-83626cd602a4")
+	)
+	(wire
+		(pts
+			(xy 172.72 92.71) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b79a54-a873-4a2e-bb95-737b48354c5b")
+	)
+	(wire
+		(pts
+			(xy 52.07 90.17) (xy 52.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09bf070-278d-4bfa-9936-0de5bd8cb7ea")
+	)
+	(wire
+		(pts
+			(xy 156.21 102.87) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c8944e-9b74-40f0-ab4f-e6505fe16a3e")
+	)
+	(hierarchical_label "DATA_IN"
+		(shape input)
+		(at 44.45 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d2ae9c3-75e5-4236-83cd-059603c14588")
+	)
+	(hierarchical_label "DATA_OUT"
+		(shape output)
+		(at 232.41 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d82e9e3e-40ed-4398-ad14-3a0726c64d57")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 76.2 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d11b4d-4825-4cb4-873e-a9ed13a6b228")
+		(property "Reference" "D2"
+			(at 79.248 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 84.582 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 77.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 78.74 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1db0c300-1994-469c-a60f-0911edf973ea")
+		)
+		(pin "1"
+			(uuid "42f2e319-331c-4e3f-8526-65ec9890bb85")
+		)
+		(pin "4"
+			(uuid "d2714838-06af-4bc4-aa51-b1e8bd3385e0")
+		)
+		(pin "2"
+			(uuid "dcbc2191-ec97-40f0-88a6-45946d2b8e6e")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D58")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D50")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D42")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 124.46 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06653b7b-072a-4e3d-b4bb-b202cf092f7f")
+		(property "Reference" "D4"
+			(at 127.508 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 132.842 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 127 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c2824986-43fb-413e-9b96-d2394a89d671")
+		)
+		(pin "1"
+			(uuid "5ece49ec-d9c5-4a3c-80e5-5867a1c86132")
+		)
+		(pin "4"
+			(uuid "a6c2c3ea-b3ba-4f2c-88b1-4064a3ddb147")
+		)
+		(pin "2"
+			(uuid "e55cfda3-78e1-4b96-bb18-fd3ba586e824")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D60")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D52")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D44")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0840f997-1b1d-4337-8974-d41871e2df82")
+		(property "Reference" "C1"
+			(at 57.1563 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 57.1563 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b27a88e6-fa51-4591-8d9e-b09ecdc222ff")
+		)
+		(pin "1"
+			(uuid "c6c5a189-d43b-4fc0-8bc3-22551ccd9263")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2d0bb3-58f7-4da9-8813-1d707ec363e3")
+		(property "Reference" "C7"
+			(at 201.9363 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 201.9363 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad95e084-2e82-42e8-a5ee-3099a5b9449f")
+		)
+		(pin "1"
+			(uuid "67a08868-aece-43fa-b593-ab905ea1d75d")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C63")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1233f328-55c9-41ef-9a87-fd6007def141")
+		(property "Reference" "#PWR025"
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8d0ad60-d932-4f88-b331-4cf1436a7a0a")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17f019be-59cf-4e52-8a63-966565dc19e4")
+		(property "Reference" "#PWR030"
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af9a9011-8435-47a0-9522-5da37a607dc5")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a49d81d-78da-425f-9641-b7ebd4a494af")
+		(property "Reference" "#PWR019"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f23bb5b4-1181-4c4a-af7e-55cdf159fb61")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR091")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 196.85 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22c87029-9545-4619-bc8d-fce762d22eb1")
+		(property "Reference" "D7"
+			(at 199.898 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 205.232 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 199.39 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e50118f2-169a-49fc-b434-cd9af128989c")
+		)
+		(pin "1"
+			(uuid "fc27c275-31eb-4c6f-b8b8-d0bd746e1e7a")
+		)
+		(pin "4"
+			(uuid "adadf58a-1746-448e-a9c9-3fd512f902a3")
+		)
+		(pin "2"
+			(uuid "4db87770-ddb2-4e64-bc38-61df11d373ee")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D63")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D55")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 52.07 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a89eceb-b7fd-419e-80e6-ddc72538a1df")
+		(property "Reference" "#PWR07"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba91a134-c067-413a-80ea-92a490817c6d")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 52.07 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bedb952-03aa-4e2b-8213-912b440a0810")
+		(property "Reference" "D1"
+			(at 55.118 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 60.452 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 54.61 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d85220f-d040-489d-81b9-1ba3813450ee")
+		)
+		(pin "1"
+			(uuid "dd63fd7e-4e97-420a-9b05-0767e96eb135")
+		)
+		(pin "4"
+			(uuid "12f9cad3-53ec-4626-9f2a-fe40bdb7d953")
+		)
+		(pin "2"
+			(uuid "2d995dd5-92d7-4388-9f95-558f70ae67f3")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D57")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D49")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D41")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd4f242-9f18-4d8e-9d0c-81aa8799f39f")
+		(property "Reference" "#PWR016"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "604bb683-ab83-4960-bfa5-aad1c4faf3f4")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 100.33 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40cc5289-4dbf-4a07-960e-8c42aad769f1")
+		(property "Reference" "#PWR09"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e7ce50b-6383-4ff7-8a5b-dcb768807e79")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 100.33 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "424187c2-3754-4e72-8599-78ce0d9f7cbd")
+		(property "Reference" "D3"
+			(at 103.378 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 108.712 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 102.87 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ff99220-293c-4b1d-8828-15d8df7d8d45")
+		)
+		(pin "1"
+			(uuid "a53010a0-48a8-44c4-ab5d-544fb0ad33b1")
+		)
+		(pin "4"
+			(uuid "b6ab1442-99ca-49b5-8066-c59b7b1b91fd")
+		)
+		(pin "2"
+			(uuid "d72248a0-6eef-416c-8f46-44b43e2061b1")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D59")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D51")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D43")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464f9b38-7b37-42ab-a666-f14a7266497d")
+		(property "Reference" "C2"
+			(at 81.2863 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 81.2863 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4128de63-6738-458c-8248-da20de3348c2")
+		)
+		(pin "1"
+			(uuid "af3f7220-b579-4496-bb9e-2d596bb29966")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c83b5b-4564-4eea-b2e0-eff676acdf46")
+		(property "Reference" "C4"
+			(at 129.5463 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 129.5463 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf6304f5-71a6-4f52-8738-945b166b4595")
+		)
+		(pin "1"
+			(uuid "5fc796e8-0b10-4016-ad2c-016004e77e73")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5272cd20-a267-496c-8d30-f169883b6b06")
+		(property "Reference" "#PWR026"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a632090d-5817-4e17-adfe-1008716d1dfe")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 220.98 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5836f24c-ff80-41bc-82dc-40249bbd596d")
+		(property "Reference" "#PWR014"
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40981de7-a095-4109-8969-8d1c4fe96df8")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 177.8 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59404622-738c-4346-a986-8670315e5210")
+		(property "Reference" "C6"
+			(at 177.8063 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 177.8063 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41cc92e4-c223-4c2a-88e5-44767001cfc8")
+		)
+		(pin "1"
+			(uuid "5d12546c-3ce5-4534-ae79-8539bc34f8da")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C62")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b7a8ce1-19d3-4644-b830-59fc96f25b22")
+		(property "Reference" "#PWR023"
+			(at 52.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88fe9438-dde4-4495-a0c4-f12d35434672")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e2e9aa9-d585-4465-98ea-7a7c1e2b283e")
+		(property "Reference" "#PWR022"
+			(at 234.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c34750-6712-4c28-87de-a63c0e15ded0")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 226.06 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64300685-e710-411e-ba17-0645322d142e")
+		(property "Reference" "C8"
+			(at 226.0663 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 226.0663 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 226.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 226.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdd6faf6-8627-4ef5-bcc6-645e53e9ff73")
+		)
+		(pin "1"
+			(uuid "b2020727-1c83-4f75-9609-3e293890bc67")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C64")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 153.67 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68819fd5-5d24-48ca-9139-dd75ccb17bb6")
+		(property "Reference" "C5"
+			(at 153.6763 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 153.6763 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28f65c73-f4ac-437c-b345-12474d37002d")
+		)
+		(pin "1"
+			(uuid "4fc800e6-7f0e-44e1-a783-90d1139ac357")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C61")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d634038-0f2b-4849-aa41-e43eaf18220d")
+		(property "Reference" "#PWR017"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb5e90c9-5f9d-4d32-8a2d-ae81691e0036")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8658b0-c64b-43b9-9db2-1510a1fd57d0")
+		(property "Reference" "#PWR021"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8a66a88-66d0-4335-a710-6294b3584cd3")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 196.85 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e5436e-fc3c-4995-9e28-e0edab059c13")
+		(property "Reference" "#PWR013"
+			(at 196.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ac6ca53-093a-4d1f-8f37-f3dc196c055c")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7366a182-5906-406e-bb1e-d5618c9802fb")
+		(property "Reference" "#PWR029"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ede975ed-6169-461b-8027-dbb12d33dd78")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "755dda04-f15f-4889-9a20-7dedde857f61")
+		(property "Reference" "C3"
+			(at 105.4163 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 105.4163 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1726d234-87c0-49f2-b7a9-ae44eea53428")
+		)
+		(pin "1"
+			(uuid "f8325c2f-e101-4275-9944-c6b6d63b47f5")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "C59")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "C51")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 172.72 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ea0466-d4b8-4c0b-82ad-e6efe25b81ec")
+		(property "Reference" "#PWR012"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28d51375-6d0b-4e7e-ab5a-2614b9a2a8fd")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 172.72 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ac50ec9-82be-4192-af49-c76db79a0840")
+		(property "Reference" "D6"
+			(at 175.768 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 175.26 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8702d7de-e65d-45b0-9750-fab1675d4507")
+		)
+		(pin "1"
+			(uuid "3b2f99cb-fa2b-4f8b-b60c-33abd08b809a")
+		)
+		(pin "4"
+			(uuid "654e8498-79ea-4438-abdb-7852f8fcb8fa")
+		)
+		(pin "2"
+			(uuid "590ab456-6628-41f6-9ffb-9d50c487b44b")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D62")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D54")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 148.59 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d2ca86-7407-46f6-9d77-867dcc1f7078")
+		(property "Reference" "#PWR011"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf3999d3-72ac-42f6-8660-be66340ff273")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a09bee-0bc6-4de5-a1c9-12f3432f470d")
+		(property "Reference" "#PWR027"
+			(at 148.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2f90e88-3043-40c2-bff0-c2ff0c2bf079")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "949d6315-d287-42e3-928a-47295e21391b")
+		(property "Reference" "#PWR015"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6fef539-51ac-4137-9e20-3d398355f594")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b39914d4-cdf6-45af-970e-6a07115e5047")
+		(property "Reference" "#PWR024"
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e039d3e-91b4-48a1-945c-363a4d0bdf6d")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 220.98 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1341ec2-abe6-4171-980a-60b0b9547b03")
+		(property "Reference" "D8"
+			(at 224.028 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 229.362 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 223.52 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bda30d3e-e845-4e02-a51a-ba546df71ff1")
+		)
+		(pin "1"
+			(uuid "15682c6f-ca2a-46f5-b97d-43b16f505436")
+		)
+		(pin "4"
+			(uuid "711ed0fb-52db-4416-a23a-578a969782c3")
+		)
+		(pin "2"
+			(uuid "3e7ac6a1-108a-41c9-a229-ae983785f268")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D40")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D64")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D56")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c42e1638-3df6-47ff-ae64-1d38211f8a53")
+		(property "Reference" "#PWR028"
+			(at 172.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4641e47e-6d60-482f-ab82-19045812cf7b")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 124.46 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e8eea0-6f16-4e46-bc4b-5bc2e77e8777")
+		(property "Reference" "#PWR010"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a31a6015-bccd-44bd-ae90-5d837b936111")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 76.2 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cba1d038-d247-4839-87cf-c7891519c2cf")
+		(property "Reference" "#PWR08"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1065dd-3a65-44ba-aabd-f8defaaad1d5")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 148.59 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce8aaa2f-fb2d-4b67-a745-7f29973a3252")
+		(property "Reference" "D5"
+			(at 151.638 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 156.972 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 151.13 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d9a92f6-46f5-4724-9d04-3a9c61393031")
+		)
+		(pin "1"
+			(uuid "db97d60e-c53c-4298-b534-205c5785e5a3")
+		)
+		(pin "4"
+			(uuid "6b90ac06-ecbe-4453-89da-8ccbf99d7384")
+		)
+		(pin "2"
+			(uuid "a4cd16cc-db72-4a06-9824-64be0d337ab4")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "D61")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "D53")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "D45")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d407ecbf-d72d-4b15-affb-52e56ba77aa7")
+		(property "Reference" "#PWR018"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd7039b7-3e78-4ade-8118-c53bdcc79a62")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8008295-4843-4d71-ad0e-f5c7e47d1290")
+		(property "Reference" "#PWR020"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e0a000-1dd5-452a-bd89-9a6488b788b5")
+		)
+		(instances
+			(project "MatrixBoard"
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/162a7c42-e5dc-40cb-a278-34f0a3e237df"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/32bc70e3-e934-41dd-bb9b-c52d42f12853"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/3bba0a0f-4bd5-4aef-933c-7b5f8a6895ca"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/45893297-817c-4322-b967-7e93ac2e262d"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/49aafbbd-c599-4afa-a9c6-64c52b456641"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/53030be6-7751-4235-9076-a3f86776593a"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/61adf4b0-2518-426c-b309-3bdcf197ce89"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/703dcdc8-3243-46f0-a5b8-0d2e1f0e6c5e/bab3fe77-9dba-4e51-a0ff-64623aaffc33"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

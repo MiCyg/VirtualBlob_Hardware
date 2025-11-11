@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "EdgeConn")(type "KiCad")(uri "${KIPRJMOD}/../EdgeConn.pretty")(options "")(descr ""))
   (lib (name "buzzer")(type "KiCad")(uri "${KIPRJMOD}/buzzer.pretty")(options "")(descr ""))
+  (lib (name "PCM_Espressif")(type "KiCad")(uri "${KIPRJMOD}/libs/kicad-libraries-main/kicad-libraries-main/footprints/Espressif.pretty")(options "")(descr ""))
 )

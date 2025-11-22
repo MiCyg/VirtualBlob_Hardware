@@ -731,5 +731,10 @@
       "utils"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BoardName": "MainBoard",
+    "Company": "Miłosz Derżko",
+    "ProjectTitle": "VirtualBlob",
+    "Revision": "0.4.0"
+  }
 }

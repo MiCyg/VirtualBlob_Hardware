@@ -5,10 +5,10 @@
 	(uuid "9e709b97-b403-4027-b7d8-a3ed3b3557e2")
 	(paper "A4")
 	(title_block
-		(title "VirtualBlob")
+		(title "${ProjectTitle}")
 		(date "2025-09-15")
-		(rev "0.4.0")
-		(company "Miłosz Derżko")
+		(rev "${Revision}")
+		(company "${Company}")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
@@ -740,7 +740,7 @@
 			(uuid "a06ff327-8f83-448d-a9c0-2f334a824734")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR056")
 					(unit 1)
@@ -808,7 +808,7 @@
 			(uuid "ea6883f1-2e01-44e3-805a-f6f64f0c34d8")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "H2")
 					(unit 1)
@@ -875,7 +875,7 @@
 			(uuid "75f0e59b-6e1e-44e0-850f-872793d5ffdb")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#FLG03")
 					(unit 1)
@@ -942,7 +942,7 @@
 			(uuid "8b1e843a-2f39-4d23-bf88-5f9cf822c91f")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "H3")
 					(unit 1)
@@ -1008,7 +1008,7 @@
 			(uuid "33b65c29-f3ef-4425-8d6a-d57b8f2bc70c")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR055")
 					(unit 1)
@@ -1141,7 +1141,7 @@
 			(uuid "11d2fe32-d9cb-46dc-a123-f7f5964ce8f0")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR023")
 					(unit 1)
@@ -1209,7 +1209,7 @@
 			(uuid "4179b155-7b71-4eb4-be01-f04abe2df079")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#FLG01")
 					(unit 1)
@@ -1276,7 +1276,7 @@
 			(uuid "58a8e478-0138-45f5-9302-76f9917aa598")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR058")
 					(unit 1)
@@ -1344,7 +1344,7 @@
 			(uuid "47f1dde1-49bc-4d33-85ac-249708cd2a6f")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "H4")
 					(unit 1)
@@ -1411,7 +1411,7 @@
 			(uuid "75be6083-7ea3-4ffb-8b41-288ba83dddbd")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#FLG04")
 					(unit 1)
@@ -1477,7 +1477,7 @@
 			(uuid "53eb16e6-ac0f-43f3-ba61-a38aaf353673")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR057")
 					(unit 1)
@@ -1543,7 +1543,7 @@
 			(uuid "72b8c3a9-e7e9-4173-ac8f-67e75cb3cabe")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR07")
 					(unit 1)
@@ -1609,7 +1609,7 @@
 			(uuid "5470502e-6e2b-4dd8-99c5-bd9eac8a35a8")
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(reference "#PWR013")
 					(unit 1)

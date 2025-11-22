@@ -32127,7 +32127,7 @@
 		)
 	)
 	(gr_text "${CURRENT_DATE}"
-		(at 164 116.5 0)
+		(at 163.957 112.776 0)
 		(layer "B.SilkS")
 		(uuid "151ced7a-2e40-44a6-bf89-d09ed0d4aef9")
 		(effects
@@ -32139,7 +32139,7 @@
 		)
 	)
 	(gr_text "${TITLE}"
-		(at 164 100.5 0)
+		(at 163.83 96.52 0)
 		(layer "B.SilkS")
 		(uuid "a9cbc93e-32e9-4c1c-863a-cf06d824ea84")
 		(effects
@@ -32151,7 +32151,7 @@
 		)
 	)
 	(gr_text "${REVISION}"
-		(at 164 108.5 0)
+		(at 164.084 104.648 0)
 		(layer "B.SilkS")
 		(uuid "d28f075b-ccd0-4195-9902-eb4e46a5e7eb")
 		(effects

@@ -5,10 +5,10 @@
 	(uuid "495a6fc0-330f-4d00-aa07-9d8f167d9d74")
 	(paper "A4")
 	(title_block
-		(title "VirtualBlob")
+		(title "${ProjectTitle}")
 		(date "2025-11-10")
-		(rev "${revision}")
-		(company "Miłosz Derżko")
+		(rev "${Revision}")
+		(company "${Company}")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"

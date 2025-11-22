@@ -502,7 +502,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3d/${ProjectTitle}_$BoardName}_${Revision}.step",
       "svg": "",
       "vrml": ""
     },
@@ -672,6 +672,9 @@
     ]
   ],
   "text_variables": {
-    "revision": "0.0.0"
+    "BoardName": "MatrixBoard",
+    "Company": "Miłosz Derżko",
+    "ProjectTitle": "VirtualBlob",
+    "Revision": "0.0.0"
   }
 }

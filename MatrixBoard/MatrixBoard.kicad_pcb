@@ -32162,6 +32162,18 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "${PROJECTNAME}"
+		(at 164 100.5 0)
+		(layer "B.SilkS")
+		(uuid "db500e25-e5d5-4b91-a33b-32e36d398cbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(segment
 		(start 176.471 118.55)
 		(end 176.276 118.745)

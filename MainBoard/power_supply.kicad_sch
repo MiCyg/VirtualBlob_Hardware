@@ -5,7 +5,7 @@
 	(uuid "f68729ed-75da-41b4-a087-a3ac7b07b50c")
 	(paper "A4")
 	(title_block
-		(title "blob")
+		(title "VirtualBlob")
 		(date "2025-09-15")
 		(rev "0.4.0")
 		(company "Miłosz Derżko")

@@ -5,9 +5,9 @@
 	(uuid "71f019ea-ee7a-48df-b98b-c74cb8774b01")
 	(paper "A4")
 	(title_block
-		(title "blob")
+		(title "VirtualBlob")
 		(date "2025-09-15")
-		(rev "3.2.0")
+		(rev "0.4.0")
 		(company "Miłosz Derżko")
 	)
 	(lib_symbols
@@ -6310,15 +6310,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 255.27 54.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f70a58f8-5578-4037-95f7-a5a286cd61f6")
 		(property "Reference" "J2"
-			(at 256.54 53.3399 0)
+			(at 256.54 55.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6327,7 @@
 			)
 		)
 		(property "Value" "Matrix_in"
-			(at 256.54 55.8799 0)
+			(at 256.54 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)

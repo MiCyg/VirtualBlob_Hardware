@@ -1,7 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "EdgeConn")(type "KiCad")(uri "${KIPRJMOD}/../EdgeConn.pretty")(options "")(descr ""))
-  (lib (name "buzzer")(type "KiCad")(uri "${KIPRJMOD}/buzzer.pretty")(options "")(descr ""))
+  (lib (name "buzzer")(type "KiCad")(uri "${KIPRJMOD}/libs/buzzer.pretty")(options "")(descr ""))
   (lib (name "PCM_Espressif")(type "KiCad")(uri "${KIPRJMOD}/libs/espressif/footprints/Espressif.pretty")(options "")(descr ""))
-  (lib (name "touch")(type "KiCad")(uri "${KIPRJMOD}/touch.pretty")(options "")(descr ""))
+  (lib (name "touch")(type "KiCad")(uri "${KIPRJMOD}/libs/touch.pretty")(options "")(descr ""))
 )

@@ -2619,7 +2619,7 @@
 	)
 	(hierarchical_label "SYNC"
 		(shape input)
-		(at 92.71 87.63 180)
+		(at 92.71 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2641,7 +2641,7 @@
 	)
 	(hierarchical_label "TOUCH"
 		(shape input)
-		(at 92.71 90.17 180)
+		(at 92.71 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)

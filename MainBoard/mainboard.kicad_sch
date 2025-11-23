@@ -581,7 +581,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 179f590e-702d-41f9-b612-cc520cb0643b)
 	)
@@ -597,7 +598,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 2463315d-5272-4d75-aa2a-9ed56d6abc1c)
 	)
@@ -612,7 +614,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 27899236-faaf-477c-affa-a7fbf9eb3765)
 	)
@@ -627,7 +630,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 324a6a09-cdec-4663-af00-35dca72f7cfb)
 	)
@@ -642,7 +646,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 3d184749-19d3-472d-a191-642264381680)
 	)
@@ -656,7 +661,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 6d57722f-c172-4214-a7fd-f3dfb997e36d)
 	)
@@ -670,7 +676,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 8696eb4f-92ee-443f-bc06-c06f57e61133)
 	)
@@ -685,7 +692,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid b77f2f36-dc8d-40c4-b4b4-7f2e2a5ecb42)
 	)
@@ -699,22 +707,10 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid f53a63ab-c8a9-41c7-863a-d7934e7f3c30)
-	)
-	(polyline
-		(pts
-			(xy 279.4028 169.5727) (xy 279.4028 169.5727)
-		)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type outline)
-		)
-		(uuid f8139b15-dff8-4206-95aa-e32c7337e53c)
 	)
 	(polyline
 		(pts
@@ -726,7 +722,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid f8b8485d-9c4c-406e-9a6b-ec6bfc230fb8)
 	)
@@ -829,6 +826,16 @@
 			(type default)
 		)
 		(uuid "f400813b-7f1b-4d62-94c7-b247794383e2")
+	)
+	(polyline
+		(pts
+			(xy 279.4028 169.5727) (xy 279.4028 169.5727)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "f8139b15-dff8-4206-95aa-e32c7337e53c")
 	)
 	(wire
 		(pts
@@ -1901,7 +1908,7 @@
 			)
 		)
 		(instances
-			(project "MainBoard"
+			(project "mainboard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(page "4")
 				)
@@ -1963,7 +1970,7 @@
 			)
 		)
 		(instances
-			(project "MainBoard"
+			(project "mainboard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(page "4")
 				)
@@ -2115,7 +2122,7 @@
 			)
 		)
 		(instances
-			(project "MainBoard"
+			(project "mainboard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(page "2")
 				)

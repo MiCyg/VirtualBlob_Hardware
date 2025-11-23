@@ -1908,7 +1908,7 @@
 			)
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(page "4")
 				)
@@ -1970,7 +1970,7 @@
 			)
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(page "4")
 				)
@@ -2122,7 +2122,7 @@
 			)
 		)
 		(instances
-			(project "mainboard"
+			(project "MainBoard"
 				(path "/9e709b97-b403-4027-b7d8-a3ed3b3557e2"
 					(page "2")
 				)
